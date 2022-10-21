@@ -1,0 +1,103 @@
+/* HEADER
+------------------------- */
+
+.navbar-brand img { max-width: 100px; }
+
+.bg-dark { background: #333a40!important; }
+
+.navbar-dark .navbar-nav .btn-compra-tickets { color: #25a342; }
+
+@media (min-width: 992px) {
+  .btn-compra-tickets {
+    border: 1px solid transparent;
+    border-radius: .8rem;
+  }
+  .btn-compra-tickets:hover,
+  .navbar-dark .navbar-nav .btn-compra-tickets.active {
+    background: #25a342;
+  }
+}
+
+.pt-section { padding-top: 7rem; }
+
+/* ESTILOS TITULOS
+-------------------------------------------------- */
+
+.titulo-gral {
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.titulo-gral span {
+  display: block;
+  font-weight: 700;
+  font-size: 2.2rem;
+} 
+
+/* CAROUSEL
+-------------------------------------------------- */
+
+.bg-carousel-ba1 { background-image: url(../img/ba1-min.jpg); }
+.bg-carousel-ba2 { background-image: url(../img/ba2-min.jpg); }
+.bg-carousel-ba3 { background-image: url(../img/ba3-min.jpg); }
+
+.carousel-item {
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item svg { opacity: .5; }
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 37rem;
+  min-height: 95vh;
+}
+
+/* SECCION MITAD IMG, MITAD TEXTO
+-------------------------------------------------- */
+
+.bg-aside1 {
+  background: #333a40;
+  padding: 2rem;
+}
+
+/* FORMULARIO CONVIERTETE EN ORADOR
+-------------------------------------------------- */
+
+.btn-form {
+  background: #96c93e;
+  color: #fff !important;
+}
+.btn-form:hover { background: #74aa17; }
+
+/* FORM COMPRAR TICKETS
+-------------------------------------------------- */
+
+#totalPago {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+/* FOOTER
+-------------------------------------------------- */
+
+#main-footer {
+  background: #1d3c4e;
+  color: #fff;
+  padding: 1.5rem;
+}
+
+#main-footer .nav-link {
+  color: #fff;
+  text-align: center;
+}
+#main-footer .nav-link:hover { opacity: .7; }
+
+@media (min-width: 992px) {
+  #main-footer .nav-link span { display: block; }
+}
